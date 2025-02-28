@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "/home/sanjay/Documents/ecommerce_website/ecommerce-frontend/ecom/src/pages/Product.css";
+import "/home/sanjay/Documents/ECOM/E_com_own/ecommerce-frontend/ecom/src/pages/Product.css";
 
 function Products() {
     const [products, setProducts] = useState([]);

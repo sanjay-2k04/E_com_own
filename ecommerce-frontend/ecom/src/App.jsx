@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "/home/sanjay/Documents/ecommerce_website/ecommerce-frontend/ecom/src/pages/Home.jsx";
-import Products from "/home/sanjay/Documents/ecommerce_website/ecommerce-frontend/ecom/src/pages/Product.jsx";
-import Cart from "/home/sanjay/Documents/ecommerce_website/ecommerce-frontend/ecom/src/pages/Cart.jsx";
-import LoginSignup from "/home/sanjay/Documents/ecommerce_website/ecommerce-frontend/ecom/src/components/LoginSignup.jsx";
+import Home from "/home/sanjay/Documents/ECOM/E_com_own/ecommerce-frontend/ecom/src/pages/Home.jsx";
+import Products from "/home/sanjay/Documents/ECOM/E_com_own/ecommerce-frontend/ecom/src/pages/Product.jsx";
+import Cart from "/home/sanjay/Documents/ECOM/E_com_own/ecommerce-frontend/ecom/src/pages/Cart.jsx";
+import LoginSignup from "/home/sanjay/Documents/ECOM/E_com_own/ecommerce-frontend/ecom/src/components/LoginSignup.jsx";
 
 function App() {
     return (

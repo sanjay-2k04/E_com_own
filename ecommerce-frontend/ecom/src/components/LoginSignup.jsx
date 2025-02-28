@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import "/home/sanjay/Documents/ecommerce_website/ecommerce-frontend/ecom/src/pages/Home.css";
+import "/home/sanjay/Documents/ECOM/E_com_own/ecommerce-frontend/ecom/src/pages/Home.css";
 
 
 function Home() {
