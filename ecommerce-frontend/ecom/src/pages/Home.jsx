@@ -56,8 +56,8 @@ function Home() {
                     </div>
                     <div className="footer-section contact">
                         <h3>Contact Us</h3>
-                        <p>Email: support@myshop.com</p>
-                        <p>Phone: +123 456 7890</p>
+                        <p>Email: acsanjay0001.com</p>
+                        <p>Phone: +91 9443902537</p>
                     </div>
                 </div>
                 <div className="footer-bottom">
