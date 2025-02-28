@@ -1,0 +1,110 @@
+/* Full Page Centered Auth Page */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+}
+
+/* Auth Box */
+.auth-box {
+    background: #1e1e1e;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    width: 350px;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Heading */
+.auth-box h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+/* Subtext */
+.auth-box p {
+    font-size: 14px;
+    color: #bbb;
+}
+
+/* Input Fields */
+.input-group {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #bbb;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #2c2c2c;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.input-group input:focus {
+    background: #333;
+    border: 1px solid #ff6347;
+}
+
+/* Auth Button */
+.auth-btn {
+    background: #ff6347;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.auth-btn:hover {
+    background: #e5533d;
+}
+
+/* Toggle Link */
+.toggle-link {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #bbb;
+}
+
+.toggle-link span {
+    color: #ff6347;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.toggle-link span:hover {
+    text-decoration: underline;
+}
+
+/* Fade-In Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
